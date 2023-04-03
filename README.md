@@ -1,4 +1,5 @@
-# A General Framework Combining Generative Adversarial Networks and Mixture Density Networks for Inverse Modeling in Microstructural Materials Design
+# A Generative Adversarial Networks and Mixture Density Networks-Based Inverse Modeling for Microstructural Materials Design
+
 This software is an application of a general framework combining generative adversarial networks and mixture density networks for inverse modeling in microstructural materials design. The efficacy of the proposed approach is tested on a case study where material microstructure is design given a desired optical matieral property. 
 
 To use this software, what the algorithm requires as input is a float number from 0 to 1 representing the value for optical matrial property. Then the mixture density networks will sample various latent variable vectors, following by generative adversarial networks to produce designed microstructure images. The detailed drscription about architecture and training processing of the proposed framework can be found in the published paper given below.
@@ -29,10 +30,14 @@ To use this software, what the algorithm requires as input is a float number fro
    ```
 
 ## Acknowledgement
-The Rigorous Couple Wave Analysis simulation is supported by Prof. Cheng Sun’s lab at Northwestern University. This work is supported in part by the following grants: NIST award 70NANB19H005; DOE awards DE-SC0014330, DE-SC0019358.
+The Rigorous Couple Wave Analysis simulation is supported by Prof. Cheng Sun’s lab at Northwestern University. This work was performed under financial assistance award 70NANB19H005 from U.S. Department of Commerce, National Institute of Standards and Technology as part of the Center for Hierarchical Materials Design (CHiMaD). Partial support is also acknowledged from NSF award CMMI-2053929, and DOE awards DE-SC0019358, DE-SC0021399.
+
 
 ## Related Publications ##
-Zijiang Yang, Dipendra Jha, Arindam Paul, Wei-keng Liao, Alok Choudhary, Ankit Agrawal. "A General Framework Combining Generative Adversarial Networks and Mixture Density Networks for Inverse Modeling in Microstructural Materials Design." Accepted by Workshop on machine learning for engineering modeling, simulation and design @ NeurIPS 2020
+
+Y. Mao, Z. Yang, D. Jha, A. Paul, W. Liao, A. Choudhary, and A. Agrawal, “Generative Adversarial Networks and Mixture Density Networks-Based Inverse Modeling for Microstructural Materials Design,” Integrating Materials and Manufacturing Innovation, vol. 11, pp. 637–647, 2022. http://dx.doi.org/10.1007/s40192-022-00285-0 
+
+Zijiang Yang, Dipendra Jha, Arindam Paul, Wei-keng Liao, Alok Choudhary, Ankit Agrawal. "A General Framework Combining Generative Adversarial Networks and Mixture Density Networks for Inverse Modeling in Microstructural Materials Design." Accepted by Workshop on machine learning for engineering modeling, simulation and design @ NeurIPS 2020.
 
 ## Contact
 Zijiang Yang <zyz293@ece.northwestern.edu>; Ankit Agrawal <ankitag@ece.northwestern.edu>
